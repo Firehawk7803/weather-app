@@ -1,0 +1,6 @@
+TODO
+Do the hover effect at the navbar and sidebar links.
+
+Add underline at the links in the hover state
+Change the color of the content
+Seperate the text in the content-left and content-right by putting margin up and down at the middle element

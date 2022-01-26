@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page {
+  display: flex;
+  background-image: url("newyork.jpeg");
+  background-size: cover;
+}
+.sidebar {
+  width: 10vw;
+  height: 100vh;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 2px solid white;
+  padding: 3% 0;
+}
+.sidebar-sub {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  color: blue;
+}
+
+.side-link {
+  text-decoration: none;
+  color: white;
+  writing-mode: vertical-lr;
+  margin: 10px 0px;
+}
+
+.side-link:hover {
+  color: green;
+}
+
+.main-area {
+  width: 90vw;
+  height: 100vh;
+  /* background-color: green; */
+}
+
+.navbar {
+  width: 100%;
+  height: 15%;
+  /* background-color: lightcoral; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 85%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  padding: 0 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  /* border: 2px solid green; */
+  margin: 10px;
+  font-size: 25px;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.search {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.search-city {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.search-btn {
+  font-size: 25px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  background-color: darkblue;
+}
+
+.content-left {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  /* background-color: lightseagreen; */
+  padding: 5% 7%;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  /* background-color: lightgreen; */
+  padding: 5%;
+  color: white;
+}
+
+.city-name {
+  font-size: 150px;
+  margin: 20px 0;
+}
+
+.distance {
+  margin: 20px 0;
+}
+
+.city-content {
+  font-size: 1.2rem;
+}
