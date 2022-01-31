@@ -24,8 +24,11 @@
               class="search-city"
               type="text"
               placeholder="Search a city..."
+              id="city"
             />
-            <button class="search-btn"><i class="fa fa-search"></i></button>
+            <button class="search-btn" onclick="onClick()">
+              <i class="fa fa-search"></i>
+            </button>
           </div>
           <div class="links">
             <a href="" class="link">About Us</a>
@@ -36,9 +39,11 @@
         </div>
         <div class="content">
           <div class="content-left">
-            <h1><i class="fa fa-map-marker-alt"></i> The Tirana, Albania</h1>
-            <h1 class="city-name">Tirana City</h1>
-            <p class="city-content">
+            <h1 id="city-text">
+              <i class="fa fa-map-marker-alt"></i> The Tirana, Albania
+            </h1>
+            <h1 class="city-name" id="city-name">Tirana City</h1>
+            <p class="city-content" id="city-content">
               You can get more details about Tirana by exploring <br />
               official website at your mobile phone
             </p>
@@ -46,12 +51,13 @@
           <div class="content-right">
             <h1 class="degree"><i class="fas fa-sun"></i>25&#8451;</h1>
             <h2 class="distance">
-              <i class="fas fa-map-marker-alt"></i>Distance: 215m
+              <i class="fas fa-map-marker-alt"></i>Distance: 165m
             </h2>
             <h2 class="duration"><i class="fas fa-clock"></i>Duration: 24h</h2>
           </div>
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

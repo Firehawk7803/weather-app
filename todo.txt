@@ -2,5 +2,23 @@ TODO
 Do the hover effect at the navbar and sidebar links.
 
 Add underline at the links in the hover state
-Change the color of the content
-Seperate the text in the content-left and content-right by putting margin up and down at the middle element
+
+Math operators (+, -, *, /)
+
+Condition operators ()  they validate a statement and produce a result which is [true or false]
+
+2 < 4       true        [less than]
+5 > 10      false       [greater than]
+10 == 1     fasle       [equal]
+5 != 2      true        [not euqal]
+
+
+=  ==
+
+a = 2;
+2 == 2 => true
+'kurosh' == 'khaliqi' => false
+'kurosh' != 'khaliqi' => true
+
+1. Take the city from the user
+2. Change the elements in the content container
