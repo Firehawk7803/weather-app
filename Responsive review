@@ -1,0 +1,16 @@
+Responsive design
+
+Responsive design means that the HTML page 
+    is responsive to the change of the width
+
+
+1) Use relative units instead of fixed units
+
+    Fixed units: px  [It does not change]
+    Relative units: vw, vh, %, rem(16px in big screens, smaller in smaller screens)         [It changes depending on the screen size]
+
+2) Flex Direction
+
+    For big screens: flex-drection: row;
+    For small screens: flex-drection: column;
+    
