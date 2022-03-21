@@ -8,7 +8,7 @@
   height: 100vh;
   background-image: url("newyork.jpeg");
   background-size: cover;
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
 }
 .sidebar {
   width: 10vw;
@@ -20,7 +20,7 @@
   align-items: center;
   border-right: 2px solid white;
   padding: 3% 0;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .sidebar-sub {
   display: flex;
@@ -47,7 +47,7 @@
   width: 90vw;
   height: 100%;
   /* background-color: green; */
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
 }
 
 .navbar {
@@ -56,20 +56,20 @@
   /* background-color: lightcoral; */
   display: flex;
   justify-content: space-between;
-  border: 3px solid royalblue;
+  /* border: 3px solid royalblue; */
 }
 
 .content {
   display: flex;
   width: 100%;
   height: 85%;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 
 .links {
   display: flex;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 0 20px;
 }
 
@@ -83,11 +83,11 @@
 
 .link:hover {
   color: blue;
-  border-bottom: 2px solid blue;
+  /* border-bottom: 2px solid blue; */
 }
 
 .search {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -114,7 +114,7 @@
   flex-direction: column;
   justify-content: center;
   color: white;
-  border: 3px double darkturquoise;
+  /* border: 3px double darkturquoise; */
 }
 
 .content-right {
@@ -126,7 +126,7 @@
   /* background-color: lightgreen; */
   padding: 5%;
   color: white;
-  border: 3px double darkred;
+  /* border: 3px double darkred; */
 }
 
 .city-name {
@@ -173,7 +173,51 @@
 } */
 
 /* Style for iPad */
-@media (max-width: 966px) {
+@media (min-width: 699px) and (max-width: 966px) {
+  .navbar {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content-left,
+  .content-right {
+    width: 100%;
+  }
+  .content-right {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .distance {
+    margin: 0 1rem;
+  }
+}
+
+/* Style for iPhone */
+@media (max-width: 698px) {
+  .page {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-sub {
+    flex-direction: row;
+  }
+  .side-link {
+    writing-mode: horizontal-tb;
+    margin: 0 10px;
+  }
+  .main-area {
+    width: 100%;
+  }
+
+  .city-name {
+    font-size: 7rem;
+  }
+
   .navbar {
     flex-direction: column;
     height: fit-content;
